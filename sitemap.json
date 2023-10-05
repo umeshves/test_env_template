@@ -1,7 +1,13 @@
 {
     "root": {
         "/": [
-            "index.html"
+            "index.html",
+            "about-us.html",
+            "lists.html"
+        ],
+        "lists": [
+            "tom-waits.html",
+            "mother-mother.html"
         ]
     }
 }

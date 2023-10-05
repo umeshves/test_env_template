@@ -1,0 +1,19 @@
+/* 0.2 == 20% of the total height minus the header + footer heights */
+#row-1 {
+    height: calc((100vh - 6em)*0.2);
+    /* styles set lower overwrite earlier settings */
+    justify-content: center;
+    flex-direction: column;
+}
+
+#row-2 {
+    height: calc((100vh - 6em)*0.4);
+}
+/* 0.2 + 0.5 + 0.3 = 1 (or 100%)*/
+#row-3 {
+    height: calc((100vh - 6em)*0.4);
+}
+
+li {
+    list-style: circle;
+}
